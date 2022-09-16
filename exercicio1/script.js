@@ -30,8 +30,12 @@ console.log(txtcorrido(objeto))
 
 /// c 
 
-const funcao2 = (objeto, callback) => {
-    return callback(objeto)
-     
-}
-console.log(funcao2(objeto))
+  const funcao3 = (objeto,callback) => {
+    console.log (callback(objeto))
+  }
+funcao3(objeto,caixaAlta)
+funcao3(objeto,txtcorrido)
+
+
+
+
